@@ -45,7 +45,7 @@ def RQTtopose(RQT):
 
 
 ############ you can get the predicted label and pose here. 
-##  https://drive.google.com/open?id=1XkzaMXs0X1WdFGuoalzhHFRlZRMkY3U-
+##  https://drive.google.com/open?id=1SWWnf_crHFBTeLhkdgDZmTn0ocd-aZpV
 datasave_path="/mnt/VOL1/czheng/LiDAR/ours/Pointnet_tf2/Quat"
 f = h5py.File(os.path.join(datasave_path, "pred_label_filtered.h5"), "r")
 pred_label = np.array(f['predict_label'])
